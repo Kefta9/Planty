@@ -5,3 +5,42 @@
  * Text Domain:	   astra-planty-child
  * Description:    The Astra WordPress theme is lightning-fast and highly customizable. It has over 1 million downloads and the only theme in the world with 5,700+ five-star reviews! It’s ideal for professional web designers, solopreneurs, small businesses, eCommerce, membership sites and any type of website. It offers special features and templates so it works perfectly with all page builders like Spectra, Elementor, Beaver Builder, etc. Fast performance, clean code, mobile-first design and schema markup are all built-in, making the theme exceptionally SEO-friendly. It’s fully compatible with WooCommerce, SureCart and other eCommerce plugins and comes with lots of store-friendly features and templates. Astra also provides expert support for free users. A dedicated team of fully trained WordPress experts are on hand to help with every aspect of the theme. Try the live demo of Astra: https://zipwp.org/themes/astra/
  */
+
+.site-header-focus-item {
+  padding: 0 !important;
+}
+
+.site-logo-img {
+    padding-left: 10px;
+}
+
+.main-header-menu {
+    gap: 30px;
+    height: 80px;
+}
+
+.menu-admin a {
+    color: black;
+}
+
+.menu-admin a:hover {
+    color: #DC9F96;
+}
+
+.menu-item-41 {
+    background-color: #DC9F96;    
+}
+
+.menu-item:last-child .menu-link {
+    color: white;
+}
+
+.menu-item:last-child .menu-link:hover{
+    color: black;
+}
+
+@media (max-width: 921px) {
+    .main-header-menu {
+        gap: 0px;
+    }
+}
