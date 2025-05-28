@@ -49,6 +49,10 @@
     color: white;
 }
 
+#colophon .footer-nav-wrap .menu-link {
+    color: black!important;
+}
+
 @media (max-width: 921px) {
     .main-header-menu {
         gap: 0px;
