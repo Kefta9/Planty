@@ -19,12 +19,16 @@
     height: 80px;
 }
 
+.main-header-menu a:hover {
+    font-weight: bold;
+}
+
 .menu-admin a {
     color: black;
 }
 
 .menu-admin a:hover {
-    color: #DC9F96;
+    font-weight: bold;
 }
 
 .menu-item-41 {
@@ -33,12 +37,16 @@
     align-items: center;
 }
 
+.menu-item-41:hover {
+    background-color: #C02e44;
+}
+
 .menu-item:last-child .menu-link {
-    color: white;
+    color: white!important;
 }
 
 .menu-item:last-child .menu-link:hover{
-    color: black;
+    color: white;
 }
 
 @media (max-width: 921px) {
